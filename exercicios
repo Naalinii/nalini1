@@ -1,0 +1,178 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Naalinii/nalini1/blob/main/exercicios\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "exercicios\n"
+      ],
+      "metadata": {
+        "id": "B0qdaxwoByOu"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "5\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "kgFc6mXWEjk9"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "r = float(input(\"digite um valor \"))\n",
+        "ve = 4*3.14*r*r*r/3\n",
+        "print ( ve)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "6ReDLVULBnnE",
+        "outputId": "047f67a3-f9d3-4ac4-a2fb-93eb8093624e"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "digite um valor 10\n",
+            "4186.666666666667\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "6\n"
+      ],
+      "metadata": {
+        "id": "6VXj6S3VHVbM"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "g=float(input(\"digite um valor\"))\n",
+        "rad=g*3.14/180\n",
+        "print(rad)"
+      ],
+      "metadata": {
+        "id": "6_0A_FC7HWsV",
+        "outputId": "d284b154-e288-40b3-dab2-6d570f9ab5cd",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "digite um valor100\n",
+            "1.7444444444444445\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "7"
+      ],
+      "metadata": {
+        "id": "wwsJxcRdIGYx"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "rad=float(input(\"digite um valor\"))\n",
+        "g=rad*180/3.14\n",
+        "print(g)"
+      ],
+      "metadata": {
+        "id": "uyxcD1sTIHGa",
+        "outputId": "c35f3715-f718-4007-8664-07f4d1bd4cee",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 11,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "digite um valor1.7444444444444445\n",
+            "100.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "8"
+      ],
+      "metadata": {
+        "id": "55RXkmYbJtm_"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "rad=float(input(\"digite um valor\"))\n",
+        "grad=rad*200/3.14\n",
+        "print(grad)"
+      ],
+      "metadata": {
+        "id": "-SWItrIXJugf",
+        "outputId": "6ab7fffc-5089-48b4-bade-211cc1d468b5",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 13,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "digite um valor1\n",
+            "63.69426751592356\n"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "name": "Olá, este é o Colaboratory",
+      "toc_visible": true,
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
